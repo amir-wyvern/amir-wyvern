@@ -46,7 +46,7 @@ print(wyvern.jsonify())
 
 
 <a href="https://github.com/amir-wyvern/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=amir-wyvern&show_icons=true&bg_color=0d1117&text_color=FFF&border_color=444" height="165">
+    <img src="https://github-readme-stats.vercel.app/api?username=amir-wyvern&include_all_commits=true&count_private=true&show_icons=true&bg_color=0d1117&text_color=FFF&border_color=444" height="165">
 </a>
 <a href="https://github.com/amir-wyvern/github-readme-stats">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amir-wyvern&layout=compact&bg_color=0d1117&text_color=FFF&border_color=444"  height="165">
