@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://github.com/amir-wyvern/amir-wyvern/blob/main/robot.svg">
-</p>
+</p> 
 
 
 
@@ -32,7 +32,7 @@ class WyVern:
     interest : tuple[str, ...] = ("BlockChain" ,"AI" )
   
     def jsonify(self) -> str:
-        return json.dumps(asdict(self), indent=4)
+        return json.dumps(asdict(self), indent=5)
 
 
 wyvern = WyVern()
