@@ -25,11 +25,11 @@ from dataclasses import asdict, dataclass
 
 @dataclass
 class WyVern:
-    languages: tuple[str, ...] = ("Python", "Go", "Rust" , "C")
+    languages: tuple[str, ...] = ("Solidity", "Python", "Rust", "Go", "C")
     databases: tuple[str, ...] = ("SQLite", "Mongo", "Redis")
     misc     : tuple[str, ...] = ("Docker", )
-    fields   : tuple[str, ...] = ("Machine Learning" ,"IOT" ,"Web-BackEnd")
-    interest : tuple[str, ...] = ("BlockChain" ,"AI" )
+    fields   : tuple[str, ...] = ("Backend-Tech", "BlockChain", "Machine Learning")
+    interest : tuple[str, ...] = ("IOT", "AI" )
   
     def jsonify(self) -> str:
         return json.dumps(asdict(self), indent=5)
