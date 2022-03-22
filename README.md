@@ -55,12 +55,12 @@ print(wyvern.jsonify())
 
 
 
-<h1 align="center"> Now Working on: </h1>
-<p align="center">
-  <a href="https://github.com/amir-wyvern/Analysis-Bot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=amir-wyvern&repo=Analysis-Bot&bg_color=0d1117&text_color=FFF&border_color=444">
-  </a>
-</p>
+#<h1 align="center"> Now Working on: </h1>
+#<p align="center">
+#  <a href="https://github.com/amir-wyvern/Analysis-Bot">
+#    <img src="https://github-readme-stats.vercel.app/api/pin/?username=amir-wyvern&repo=Analysis-#Bot&bg_color=0d1117&text_color=FFF&border_color=444">
+#  </a>
+#</p>
 
 
 
