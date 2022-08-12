@@ -25,7 +25,7 @@ from dataclasses import asdict, dataclass
 
 @dataclass
 class WyVern:
-    languages : tuple[str, ...] = ("Python", "Solidity", "JavaScript", "Go", "C")
+    languages : tuple[str, ...] = ("Python", "Solidity", "Rust", "JavaScript", "Go", "C")
     databases : tuple[str, ...] = ("SQLite", "Mongo", "Redis")
     misc      : tuple[str, ...] = ("Docker", )
     blockchain: tuple[str, ...] = ("Ethereum", "Harmony")
