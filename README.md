@@ -25,10 +25,10 @@ from dataclasses import asdict, dataclass
 
 @dataclass
 class WyVern:
-    languages : tuple[str, ...] = ("Python", "Solidity", "Rust", "JavaScript", "Go", "C")
-    databases : tuple[str, ...] = ("SQLite", "Mongo", "Redis")
-    misc      : tuple[str, ...] = ("Docker", )
-    blockchain: tuple[str, ...] = ("Ethereum", "Harmony")
+    languages : tuple[str, ...] = ("Python", "Solidity", "Go", "C", "JavaScript")
+    databases : tuple[str, ...] = ("PostgresSQL", "SQLite", "Mongo", "Redis")
+    misc      : tuple[str, ...] = ("Docker", "Celery")
+    blockchain: tuple[str, ...] = ("Ethereum", "Harmony", "BSC")
     fields    : tuple[str, ...] = ("Backend-Tech", "BlockChain", "Cryptography")
     interest  : tuple[str, ...] = ("IOT", "AI", "Machine Learning", "Math")
   
