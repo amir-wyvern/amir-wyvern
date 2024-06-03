@@ -27,9 +27,10 @@ from dataclasses import asdict, dataclass
 class WyVern:
     languages : tuple[str, ...] = ("Python", "Solidity", "Go", "C", "JavaScript")
     databases : tuple[str, ...] = ("PostgresSQL", "SQLite", "Mongo", "Redis")
-    misc      : tuple[str, ...] = ("Docker", "Celery")
+    misc      : tuple[str, ...] = ("Docker", "Celery", "ELK")
     blockchain: tuple[str, ...] = ("Ethereum", "Harmony", "BSC")
     fields    : tuple[str, ...] = ("Backend-Tech", "BlockChain", "Cryptography")
+    ai-tools  : tuple[str, ...] = ("rasa",)
     interest  : tuple[str, ...] = ("IOT", "AI", "Machine Learning", "Math")
   
     def jsonify(self) -> str:
